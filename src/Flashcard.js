@@ -29,7 +29,7 @@ export default function Flashcard({flashCard}) {
             <div className="front" ref={frontEl}>
                 <h2>{flashCard.titulo}</h2>
             </div>
-            <div className="back" ref={backEl}><h2>{flashCard.respuesta}</h2></div>
+            <div className="back" ref={backEl}><p>{flashCard.respuesta}</p></div>
         </div>
     )
 }

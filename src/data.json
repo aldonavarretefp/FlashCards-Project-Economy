@@ -1,93 +1,291 @@
 [
     {
         "id":1,
-        "titulo":"¿Quién representó principalmente a los fisiócratas?",
-        "categoria":"fisiocracatas",
-        "respuesta":"Quesnay"
+        "titulo":"¿Quiénes eran considerados mercantilistas?",
+        "categoria":"mercantilistas",
+        "respuesta":"Comerciantes y banqueros"
         
     },
     {
         "id":2,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
+        "titulo":"¿Quienes representaron principalmente a los Mercantilistas?",
         "categoria":"mercantilistas",
-        "respuesta":"Adam Smith"
+        "respuesta":"Gerald Malynes, Eduardo Misselden, Juan Bodino, Antonio Serra."
     },
     {
         "id":3,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
+        "titulo":"¿Cual fue la primera etapa del mercantilismo?",
         "categoria":"mercantilistas",
-        "respuesta":"Adam Smith"
+        "respuesta":"El metalismo."
     },
     {
         "id":4,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
+        "titulo":"¿Cual era la fuente de riqueza para los metalistas?",
         "categoria":"mercantilistas",
-        "respuesta":"Adam Smith"
+        "respuesta":"Metales preciosos."
     },
     {
         "id":5,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
-        "categoria":"Mercantilistas",
-        "respuesta":"Adam Smith"
+        "titulo":"¿Cual era la fuente de riqueza en la segunda etapa del mercantilismo?",
+        "categoria":"mercantilistas",
+        "respuesta":"La producción, el país más rico era el que más producía."
     },
     {
         "id":6,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
-        "categoria":"Mercantilistas",
-        "respuesta":"Adam Smith"
+        "titulo":"¿Qué es un Arancel?",
+        "categoria":"mercantilistas",
+        "respuesta":"Derecho que se paga para poder exportar e importar. (Se cobraba caro)."
     },
     {
         "id":7,
-        "titulo":"¿Quién representó principalmente a los ?",
+        "titulo":"¿Qué es la balanza comercial?",
         "categoria":"mercantilistas",
-        "respuesta":"Adam Smith"
+        "respuesta":"Documento en donde se registra la salida y entrada de oro derivado de la importación y exportación."
     },
     {
         "id":8,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
+        "titulo":"¿Cuál es la consecuencia del crecimiento desmedido de la población?",
         "categoria":"mercantilistas",
-        "respuesta":"Eiusmod laboris sit occaecat proident officia excepteur incididunt et dolor minim et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laboris exercitation consectetur Lorem amet ut incididunt.Amet id do laboris elit aliquip anim reprehenderit reprehenderit magna dolore ut dolore adipisicing sunt. Non laborum duis ea adipisicing. Qui nulla labore sunt eiusmod sint. Ipsum ipsum consectetur duis incididunt qui laborum sunt consectetur anim quis non officia reprehenderit dolor. Ut excepteur aliqua esse ut fugiat dolore. Eu deserunt in aute eu cillum cupidatat ut aliquip proident ipsum ipsum tempor. Aliquip ad ex quis irure officia deserunt."
+        "respuesta":"Hay mano de obra barata, por lo tanto el costo de producción es bajo, que deriva en precios competitivos."
     },
     {
         "id":9,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
+        "titulo":"¿Qué papel jugaba el Estado?",
         "categoria":"mercantilistas",
-        "respuesta":"Eiusmod laboris sit occaecat proident officia excepteur incididunt et dolor minim et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laboris exercitation consectetur Lorem amet ut incididunt.Amet id do laboris elit aliquip anim reprehenderit reprehenderit magna dolore ut dolore adipisicing sunt. Non laborum duis ea adipisicing. Qui nulla labore sunt eiusmod sint. Ipsum ipsum consectetur duis incididunt qui laborum sunt consectetur anim quis non officia reprehenderit dolor. Ut excepteur aliqua esse ut fugiat dolore. Eu deserunt in aute eu cillum cupidatat ut aliquip proident ipsum ipsum tempor. Aliquip ad ex quis irure officia deserunt."
+        "respuesta":"Era la máxima institución controladora y reguladora de la economía."
     },
     {
         "id":10,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
+        "titulo":"¿Qué fue lo que dió fin a esta teoría económica?",
         "categoria":"mercantilistas",
-        "respuesta":"Eiusmod laboris sit occaecat proident officia excepteur incididunt et dolor minim et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laboris exercitation consectetur Lorem amet ut incididunt.Amet id do laboris elit aliquip anim reprehenderit reprehenderit magna dolore ut dolore adipisicing sunt. Non laborum duis ea adipisicing. Qui nulla labore sunt eiusmod sint. Ipsum ipsum consectetur duis incididunt qui laborum sunt consectetur anim quis non officia reprehenderit dolor. Ut excepteur aliqua esse ut fugiat dolore. Eu deserunt in aute eu cillum cupidatat ut aliquip proident ipsum ipsum tempor. Aliquip ad ex quis irure officia deserunt."
+        "respuesta":"El proteccionismo. Todos querían vender, pero nadie compar."
     },
     {
         "id":11,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
-        "categoria":"mercantilistas",
-        "respuesta":"Eiusmod laboris sit occaecat proident officia excepteur incididunt et dolor minim et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laboris exercitation consectetur Lorem amet ut incididunt.Amet id do laboris elit aliquip anim reprehenderit reprehenderit magna dolore ut dolore adipisicing sunt. Non laborum duis ea adipisicing. Qui nulla labore sunt eiusmod sint. Ipsum ipsum consectetur duis incididunt qui laborum sunt consectetur anim quis non officia reprehenderit dolor. Ut excepteur aliqua esse ut fugiat dolore. Eu deserunt in aute eu cillum cupidatat ut aliquip proident ipsum ipsum tempor. Aliquip ad ex quis irure officia deserunt."
+        "titulo":"¿Quién es el padre de la Economía Política?",
+        "categoria":"economia-politica",
+        "respuesta":"William Petty"
     },
     {
         "id":12,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
-        "categoria":"mercantilistas",
-        "respuesta":"Eiusmod laboris sit occaecat proident officia excepteur incididunt et dolor minim et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laboris exercitation consectetur Lorem amet ut incididunt.Amet id do laboris elit aliquip anim reprehenderit reprehenderit magna dolore ut dolore adipisicing sunt. Non laborum duis ea adipisicing. Qui nulla labore sunt eiusmod sint. Ipsum ipsum consectetur duis incididunt qui laborum sunt consectetur anim quis non officia reprehenderit dolor. Ut excepteur aliqua esse ut fugiat dolore. Eu deserunt in aute eu cillum cupidatat ut aliquip proident ipsum ipsum tempor. Aliquip ad ex quis irure officia deserunt."
+        "titulo":"¿Qué frase caracterizó a esta teoría?",
+        "categoria":"economia-politica",
+        "respuesta":"La tierra es la madre y el trabajo es el padre "
     },
     {
         "id":13,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
-        "categoria":"mercantilistas",
-        "respuesta":"Eiusmod laboris sit occaecat proident officia excepteur incididunt et dolor minim et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laboris exercitation consectetur Lorem amet ut incididunt.Amet id do laboris elit aliquip anim reprehenderit reprehenderit magna dolore ut dolore adipisicing sunt. Non laborum duis ea adipisicing. Qui nulla labore sunt eiusmod sint. Ipsum ipsum consectetur duis incididunt qui laborum sunt consectetur anim quis non officia reprehenderit dolor. Ut excepteur aliqua esse ut fugiat dolore. Eu deserunt in aute eu cillum cupidatat ut aliquip proident ipsum ipsum tempor. Aliquip ad ex quis irure officia deserunt."
+        "titulo":"¿Qué preguntas se hacía William Petty?",
+        "categoria":"economia-politica",
+        "respuesta":"¿Cuál será la fuente de riqueza?, ¿Qué es lo que le da valor a la producción?,¿Cómo se le asigna el valor a la producción?"
     },
     {
         "id":14,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
-        "categoria":"mercantilistas",
-        "respuesta":"Eiusmod laboris sit occaecat proident officia excepteur incididunt et dolor minim et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laboris exercitation consectetur Lorem amet ut incididunt.Amet id do laboris elit aliquip anim reprehenderit reprehenderit magna dolore ut dolore adipisicing sunt. Non laborum duis ea adipisicing. Qui nulla labore sunt eiusmod sint. Ipsum ipsum consectetur duis incididunt qui laborum sunt consectetur anim quis non officia reprehenderit dolor. Ut excepteur aliqua esse ut fugiat dolore. Eu deserunt in aute eu cillum cupidatat ut aliquip proident ipsum ipsum tempor. Aliquip ad ex quis irure officia deserunt."
+        "titulo":"¿Qué es valor de cambio?",
+        "categoria":"economia-politica",
+        "respuesta":"Capacidad que tiene una mercancía de ser cambiada por otra. Todo lo que se produce lo tiene."
     },
     {
         "id":15,
-        "titulo":"¿Quién representó principalmente a los Mercantilistas?",
-        "categoria":"mercantilistas",
-        "respuesta":"Eiusmod laboris sit occaecat proident officia excepteur incididunt et dolor minim et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laboris exercitation consectetur Lorem amet ut incididunt.Amet id do laboris elit aliquip anim reprehenderit reprehenderit magna dolore ut dolore adipisicing sunt. Non laborum duis ea adipisicing. Qui nulla labore sunt eiusmod sint. Ipsum ipsum consectetur duis incididunt qui laborum sunt consectetur anim quis non officia reprehenderit dolor. Ut excepteur aliqua esse ut fugiat dolore. Eu deserunt in aute eu cillum cupidatat ut aliquip proident ipsum ipsum tempor. Aliquip ad ex quis irure officia deserunt."
+        "titulo":"¿Qué es valor de uso?",
+        "categoria":"economia-politica",
+        "respuesta":"Capacidad que tiene una mercancía de satisfacer una necesidad. Es propio de los bienes."
+    },
+    {
+        "id":16,
+        "titulo":"¿Qué es el precio natural?",
+        "categoria":"economia-politica",
+        "respuesta":"Precio determinado por el costo de producción."
+    },
+    {
+        "id":17,
+        "titulo":"¿Qué es el precio político?",
+        "categoria":"economia-politica",
+        "respuesta":"Costo de producción más ganacias del capitalista."
+    },
+    {
+        "id":18,
+        "titulo":"¿Qué papel juega el estado en esta teoría?",
+        "categoria":"economia-politica",
+        "respuesta":"El Estado sólo se ocupa de garantizar el orden social. El control lo tienen los medios de producción."
+    },
+    {
+        "id":19,
+        "titulo":"¿Qué decía la ley del salario de William Petty?",
+        "categoria":"economia-politica",
+        "respuesta":"'Al trabajador hay que pagarle lo mínimo necesario para subsistir o de lo contrario dejará de ser productivo.'"
+    },
+    {
+        "id":20,
+        "titulo":"¿Qué significaban las clases sociales?",
+        "categoria":"economia-politica",
+        "respuesta":"Un estímulo para progresar."
+    },
+    {
+        "id":21,
+        "titulo":"¿Qué significa'Fisiocracia'?",
+        "categoria":"fisiocratas",
+        "respuesta":"Gobierno o poder de la naturaleza."
+    },
+    {
+        "id":22,
+        "titulo":"¿Qué son las leyes naturales?",
+        "categoria":"fisiocratas",
+        "respuesta":"Son leyes encontradas dentro de la naturaleza, creadas por un dios."
+    },
+    {
+        "id":23,
+        "titulo":"¿Por quién fue desarrollada esta teoría",
+        "categoria":"fisiocratas",
+        "respuesta":"Por Francisco Quesnay en Francia."
+    },
+    {
+        "id":24,
+        "titulo":"¿Qué leyes se consideraban de orden artificial?",
+        "categoria":"fisiocratas",
+        "respuesta":"Las que eran creadas por el hombre."
+    },
+    {
+        "id":25,
+        "titulo":"¿Qué leyes se consideraban de orden natural?",
+        "categoria":"fisiocratas",
+        "respuesta":"Las leyes plasmadas en la naturaleza."
+    },
+    {
+        "id":26,
+        "titulo":"¿Qué papel juega el Estado en esta teoría?",
+        "categoria":"fisiocratas",
+        "respuesta":"El Estado sólo se ocupa de proteger la propiedad privada, educar a los individuos y catigar al que vaya en contra."
+    },
+    {
+        "id":27,
+        "titulo":"¿Cuáles eran las clases sociales?",
+        "categoria":"fisiocratas",
+        "respuesta":"Los agricultores, los propietarios y los estériles."
+    },
+    {
+        "id":28,
+        "titulo":"¿Qué hacía el rey?",
+        "categoria":"fisiocratas",
+        "respuesta":"Tenía que descubrir las leyes de la naturtaleza y escribirlas."
+    },
+    {
+        "id":29,
+        "titulo":"¿Qué es el cuadro económico?",
+        "categoria":"fisiocratas",
+        "respuesta":"Es la forma de describir cómo fluía la riqueza. Esta salía de la agricultura y llegaba de nuevo a ella"
+    },
+    {
+        "id":30,
+        "titulo":"¿Dónde recaían los impuestos?",
+        "categoria":"fisiocratas",
+        "respuesta":"En el producto neto."
+    },
+    {
+        "id":31,
+        "titulo":"¿Quiénes fueron sus principales representantes?",
+        "categoria":"clasicos",
+        "respuesta":"Adam Smith, David Ricardo, Roberto Malthoy."
+    },
+    {
+        "id":32,
+        "titulo":"¿Cuál es la fuente de riqueza?",
+        "categoria":"clasicos",
+        "respuesta":"El trabajo de todo tipo, no sólo de los agricultores."
+    },
+    {
+        "id":33,
+        "titulo":"¿En qué consiste la división del trabajo?",
+        "categoria":"clasicos",
+        "respuesta":""
+    },
+    {
+        "id":34,
+        "titulo":"¿Cuál es la función del estado?",
+        "categoria":"clasicos",
+        "respuesta":"Es el responsable de la educación de los trabajadores."
+    },
+    {
+        "id":35,
+        "titulo":"Ventajas de la división del trabajo",
+        "categoria":"clasicos",
+        "respuesta":"La gente se especializaba, se ahorraba bastante tiempo, disminuía el costo de producción."
+    },
+    {
+        "id":36,
+        "titulo":"Desventajas de la división del trabajo",
+        "categoria":"clasicos",
+        "respuesta":"Había mas desgaste, se generaba ATROFIA MENTAL."
+    },
+    {
+        "id":37,
+        "titulo":"¿Qué es el liberalismo económico?",
+        "categoria":"clasicos",
+        "respuesta":"La ausencia del estado en materia económica. 'Dejar hacer, dejar pasar'"
+    },
+    {
+        "id":38,
+        "titulo":"¿De que trata la teoría Malthusiana?",
+        "categoria":"clasicos",
+        "respuesta":"Propone los frenos positivos y los frenos preventivos."
+    },
+    {
+        "id":39,
+        "titulo":"¿En qué consistían los frenos positivos?",
+        "categoria":"clasicos",
+        "respuesta":"Consistían en eliminar el excedente de la población (Hambre, Pestes, Guerra)."
+    },
+    {
+        "id":40,
+        "titulo":"¿En qué consistían los frenos preventivos?",
+        "categoria":"clasicos",
+        "respuesta":"Consistían en hacer cierto grado de conciencia en la población (Planeación Familiar)."
+    },
+    {
+        "id":41,
+        "titulo":"¿En qué consistían los frenos positivos?",
+        "categoria":"clasicos",
+        "respuesta":"Consistían en eliminar el excedente de la población (Hambre, Pestes, Guerra)."
+    },
+    {
+        "id":42,
+        "titulo":"¿A quien culpaba Malthus acerca de la sobrepolación?",
+        "categoria":"clasicos",
+        "respuesta":"A los pobres y al estado por darles ayuda."
+    },
+    {
+        "id":43,
+        "titulo":"¿Qué es la mano invisible?",
+        "categoria":"clasicos",
+        "respuesta":"El mercado, que nos conduce a un equilibrio económico."
+    },
+    {
+        "id":44,
+        "titulo":"¿Cuál es la ley de la población?",
+        "categoria":"clasicos",
+        "respuesta":"El crecimiento de la población responde a la demanda de brazos. Los individuos son mercancía."
+    },
+    {
+        "id":45,
+        "titulo":"¿Cuál es la teoría del valor?",
+        "categoria":"clasicos",
+        "respuesta":"El valor de cambio depende de la escasez y del trabajo necesario."
+    },
+    {
+        "id":46,
+        "titulo":"¿Cuál es la teoría de la renta?",
+        "categoria":"clasicos",
+        "respuesta":"La renta de la tierra se deriva de la escasez."
+    },
+    {
+        "id":47,
+        "titulo":"¿Cuáles son los dos tipos de salarios en la teoría de la distribución?",
+        "categoria":"clasicos",
+        "respuesta":"Salario real(no incluye impuestos) y salario corriente(incluye impuestos)."
+    },
+    {
+        "id":48,
+        "titulo":"¿Cuál es la ley de los rendimientos decrecientes?",
+        "categoria":"clasicos",
+        "respuesta":"A medida que vamos añadiendo valores productivos, el rendimiento va disminuyendo."
     }
 ]

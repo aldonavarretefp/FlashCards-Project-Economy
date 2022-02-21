@@ -8,27 +8,22 @@ import FlashcardList from './FlashcardList';
 import './App.scss';
 function App() {
 
-  const [flashCards, setFlashCards] = useState(Data);
+  const [flashCards, setFlashCards] = useState([]);
   const [formValues, handleInputChange, reset] = useForm({
-    numPreguntas: '2',
+    numPreguntas: '10',
     categoria: ''
   });
-  console.log(formValues);
 
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const { numPreguntas, categoria } = formValues;
-    console.log(categoria);
     //bring n questions from the category
     const filteredCards = Data.filter(card => card.categoria === categoria);
-    console.log(filteredCards);
     //randomize the order of the questions
     const randomCards = filteredCards.sort(() => Math.random() - 0.5);
-    console.log(randomCards);
     //get the first n questions
     const selectedCards = randomCards.slice(0, numPreguntas);
-    console.log(selectedCards);
 
     setFlashCards(selectedCards);
 
@@ -38,6 +33,8 @@ function App() {
 
   return (
     <React.Fragment>
+
+        
       <form className="header" onSubmit={handleSubmit}>
         <div className="formGroup">
           <label>Numero de preguntas </label>
@@ -52,10 +49,10 @@ function App() {
               }
             }
             min="1"
-            max="10"
+            max="20"
             value={formValues.numPreguntas}
             onChange={handleInputChange}
-          />
+            />
 
         </div>
         <div className="formGroup">
@@ -65,26 +62,35 @@ function App() {
             id="categoria"
             value={formValues.categoria}
             onChange={handleInputChange}
-          >
-            <option value="mercantilistas">Selecciona una categoria</option>
+            >
+            <option value="">Selecciona una categoria</option>
             <option value="mercantilistas">Mercantilistas</option>
             <option value="fisiocratas">Fisiócratas</option>
             <option value="economia-politica">Economía Política</option>
+            <option value="clasicos">Clásicos</option>
           </select>
         </div>
         <div className="formGroup">
           <button
             type="submit"
             className="btn btn-primary"
-          >
+            >
             Generar
           </button>
         </div>
       </form>
+              <h1>Creador por: <code>Navarrete Zamora Aldo Yael & Nuñez Hernandez Diego Ignacio</code></h1>
       <div className="container">
-        <FlashcardList
+        {
+          flashCards.length > 0 ? (
+          <FlashcardList
           flashCards={flashCards}
-        />
+          />
+          )
+          : (
+            <h1>Selecciona una Categoría.</h1>
+          )
+        }
       </div>
     </React.Fragment>
   );

@@ -1,5 +1,11 @@
+
+//create variables
+$mainColor:#84a59d;
+$secondaryColor:#3d405b;
+$tertiaryColor:#f28482;
+
 body{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -12,16 +18,15 @@ html{
     min-width: 1024px;
     min-height: 768px;
     height: 100%;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: $mainColor;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color:white;
 }
 
 .container{
-    max-width: 90vw;
     margin: 1rem 2rem;
     padding: 0px 2rem;
 }
@@ -32,10 +37,11 @@ html{
     align-items: center;
     margin-bottom: 2rem;
     flex-wrap: wrap;
-    background-color: #fff;
+    background-color: white;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    width: 100vw;
 
     .formGroup{
         display: flex;
@@ -47,12 +53,12 @@ html{
         label{
             font-size: 2rem;
             font-weight: bold;
-            color: #4158D0;
+            color: $secondaryColor;
             margin-bottom: .25rem;
         }
 
         .btn{
-            background-color: #4158D0;
+            background-color: $mainColor;
             color: #fff;
             border: none;
             padding: .5rem 1rem;
@@ -62,7 +68,7 @@ html{
             cursor: pointer;
             transition: .3s;
             &:hover{
-                background-color: #C850C0;
+                background-color: $tertiaryColor;
             }
         }
     }
@@ -74,10 +80,9 @@ html{
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    row-gap: 2rem;
-    column-gap: 4rem;
-    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+
 }
 .card{
     display: flex;
@@ -93,12 +98,13 @@ html{
     transform-style: preserve-3d;
     cursor: pointer;
 
-    &:hover{
+    &:hover,
+    .front h2{
         //translate Y -20px
         --translateY: -10px;
         transform: translateY(var(--translateY, -20px));
         .front h2{
-            color: rgb(123, 11, 11);
+            color: $tertiaryColor;
             text-align: center;
         }
         
@@ -118,12 +124,12 @@ html{
         }
     }
     .back{
-        h2{
-            font-weight: 700;
-            color: #C850C0;
+        p{
+            font-weight: 100;
+            font-size: calc(0.7rem + 0.5vw);
+            color: #060205;
             text-align: center;
             width: 100%;
-            font-size: calc(1rem + 1vw);
         }
     }
     
