@@ -1,0 +1,141 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+}
+// html, 
+// body {
+//     height: 100%;
+// }
+html{
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    max-width: 90vw;
+    margin: 1rem 2rem;
+    padding: 0px 2rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+
+    .formGroup{
+        display: flex;
+        flex-direction: column;
+        margin: .3rem;
+        justify-content: center;
+        align-items: center;
+
+        label{
+            font-size: 2rem;
+            font-weight: bold;
+            color: #4158D0;
+            margin-bottom: .25rem;
+        }
+
+        .btn{
+            background-color: #4158D0;
+            color: #fff;
+            border: none;
+            padding: .5rem 1rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: .3s;
+            &:hover{
+                background-color: #C850C0;
+            }
+        }
+    }
+    
+
+}
+
+.card-grid{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    row-gap: 2rem;
+    column-gap: 4rem;
+    margin-top: 20px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: .25rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #fff;
+    height: 300px; //dinamico
+    width:100%; //dinamico
+    transition: 300ms ease-in-out;
+    transform-style: preserve-3d;
+    cursor: pointer;
+
+    &:hover{
+        //translate Y -20px
+        --translateY: -10px;
+        transform: translateY(var(--translateY, -20px));
+        .front h2{
+            color: rgb(123, 11, 11);
+            text-align: center;
+        }
+        
+    }
+    &.flip{
+        --rotateY: 180deg;
+        transform: rotateY(var(--rotateY, 180deg));
+    }
+
+    .front{
+        left:0;
+        h2{
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #090a0b;
+            text-align: center;
+        }
+    }
+    .back{
+        h2{
+            font-weight: 700;
+            color: #C850C0;
+            text-align: center;
+            width: 100%;
+            font-size: calc(1rem + 1vw);
+        }
+    }
+    
+    .front,
+    .back{
+        position: absolute;
+        padding: 1rem;
+        backface-visibility: hidden;
+    }
+    .back{
+        transform: rotateY(180deg);
+    }
+}
+
+
