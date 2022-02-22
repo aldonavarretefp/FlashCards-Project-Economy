@@ -4,20 +4,11 @@ $mainColor:#84a59d;
 $secondaryColor:#3d405b;
 $tertiaryColor:#f28482;
 
-body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-// html, 
-// body {
-//     height: 100%;
-// }
 html{
     position: relative;
-    min-width: 1024px;
-    min-height: 768px;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
     background-color: $mainColor;
     background-size: cover;
     background-position: center;
@@ -25,23 +16,42 @@ html{
     background-attachment: fixed;
     color:white;
 }
+body, html{
+    padding: 0;
+    margin: 0;
+}
 
 .container{
-    margin: 1rem 2rem;
-    padding: 0px 2rem;
+    margin: 1rem 1rem;
+    padding: 0px 1rem;
 }
 
 .header{
-    display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 2rem;
-    flex-wrap: wrap;
     background-color: white;
-    padding: 1rem;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
-    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    @media screen and (max-width: 1024px){
+        flex-direction: column;
+        .formGroup {
+            select{
+                width: 100%;
+                height: 100%;
+            }
+            label{
+                font-size: 0.2rem;
+            }
+            #categoria{
+                height: 2rem;
+            }
+        }
+    }
 
     .formGroup{
         display: flex;
@@ -80,7 +90,7 @@ html{
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(calc(200px), 1fr));
     grid-gap: 1rem;
 
 }
@@ -89,59 +99,73 @@ html{
     justify-content: center;
     align-items: center;
     position: relative;
-    border-radius: .25rem;
+    cursor: pointer;
+    border-radius: 1rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     background-color: #fff;
     height: 300px; //dinamico
     width:100%; //dinamico
-    transition: 300ms ease-in-out;
-    transform-style: preserve-3d;
-    cursor: pointer;
+    transition: 600ms;
 
-    &:hover,
-    .front h2{
-        //translate Y -20px
-        --translateY: -10px;
-        transform: translateY(var(--translateY, -20px));
-        .front h2{
-            color: $tertiaryColor;
-            text-align: center;
-        }
-        
+    -webkit-transform-style:    preserve-3d;
+    -moz-transform-style:       preserve-3d;
+    -o-transform-style:         preserve-3d;
+    -ms-transform-style:        preserve-3d;
+    transform-style:            preserve-3d;
+
+    transition: transform 0.5s;
+
+    &:hover{
+        transform: perspective(1000px)  translateY(-15px);
     }
     &.flip{
-        --rotateY: 180deg;
-        transform: rotateY(var(--rotateY, 180deg));
-    }
-
-    .front{
-        left:0;
-        h2{
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #090a0b;
-            text-align: center;
-        }
-    }
-    .back{
-        p{
-            font-weight: 100;
-            font-size: calc(0.7rem + 0.5vw);
-            color: #060205;
-            text-align: center;
+        transform: perspective(1000px)  rotateY(180deg) translateZ(1px);
+        .front,
+        .back{
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            transition: transform 0.5s;
         }
+        
     }
     
     .front,
     .back{
         position: absolute;
-        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        border-radius: 1rem;
+
         backface-visibility: hidden;
+
+    }
+    .front{
+        background-color: white;
+        color:black;
     }
     .back{
-        transform: rotateY(180deg);
+        background: $secondaryColor;
+        transform: rotateY(-180deg);
     }
+
+    //text
+    .front h2,.back p{
+        font-size: 0.9rem;
+        text-align: center;
+        @media screen and (max-width: 1024px){
+            font-size: 1.2rem;
+        }
+
+    }
+
 }
 
 
