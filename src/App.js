@@ -62,6 +62,11 @@ function App() {
             id="categoria"
             value={formValues.categoria}
             onChange={handleInputChange}
+            style={
+              {
+                fontSize: '1rem'
+              }
+            }
             >
             <option value="">Selecciona una categoria</option>
             <option value="mercantilistas">Mercantilistas</option>
