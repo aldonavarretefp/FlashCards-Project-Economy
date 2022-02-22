@@ -112,7 +112,7 @@
         "id":19,
         "titulo":"¿Qué decía la ley del salario de William Petty?",
         "categoria":"economia-politica",
-        "respuesta":"'Al trabajador hay que pagarle lo mínimo necesario para subsistir o de lo contrario dejará de ser productivo.'"
+        "respuesta":"''Al trabajador hay que pagarle lo mínimo necesario para subsistir o de lo contrario dejará de ser productivo.''" 
     },
     {
         "id":20,
@@ -122,7 +122,7 @@
     },
     {
         "id":21,
-        "titulo":"¿Qué significa'Fisiocracia'?",
+        "titulo":"¿Qué significa 'Fisiocracia'?",
         "categoria":"fisiocratas",
         "respuesta":"Gobierno o poder de la naturaleza."
     },
@@ -196,7 +196,7 @@
         "id":33,
         "titulo":"¿En qué consiste la división del trabajo?",
         "categoria":"clasicos",
-        "respuesta":""
+        "respuesta":"NADA"
     },
     {
         "id":34,
