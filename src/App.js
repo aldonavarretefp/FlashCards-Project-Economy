@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Data from './data.json';
 
 import { useForm } from './hooks/useForm';
@@ -6,6 +6,7 @@ import FlashcardList from './FlashcardList';
 
 
 import './App.scss';
+import 'animate.css';
 function App() {
 
   const [flashCards, setFlashCards] = useState([]);
@@ -13,6 +14,9 @@ function App() {
     numPreguntas: '10',
     categoria: ''
   });
+
+
+  const {numPreguntas,categoria} = formValues;
 
 
   const handleSubmit = (e) => {
@@ -27,9 +31,17 @@ function App() {
 
     setFlashCards(selectedCards);
 
-    reset();
-
   };
+  // change all cards when the category changes
+  useEffect(() => {
+    if (categoria) {
+      const filteredCards = Data.filter(card => card.categoria === categoria);
+      setFlashCards(filteredCards);
+    }else{
+      setFlashCards([]);
+    }
+  }, [categoria]);
+
 
   return (
     <React.Fragment>
@@ -37,17 +49,11 @@ function App() {
         
       <form className="header" onSubmit={handleSubmit}>
         <div className="formGroup">
-          <label>Numero de preguntas </label>
+          <label>Dime, ¿cuántas preguntas quieres ver?</label>
           <input
             type="number"
             name="numPreguntas"
-            style={
-              {
-                width: '30%',
-                margin: '0 auto',
-                height: '20px',
-              }
-            }
+            className='formGroup__input-number'
             min="1"
             max="20"
             value={formValues.numPreguntas}
@@ -56,7 +62,7 @@ function App() {
 
         </div>
         <div className="formGroup">
-          <label>Categoria </label>
+          <label>¿De qué teoría?</label>
           <select
             name="categoria"
             id="categoria"
@@ -68,7 +74,7 @@ function App() {
               }
             }
             >
-            <option value="">Selecciona una categoria</option>
+            <option value="">Selecciona una teoría</option>
             <option value="mercantilistas">Mercantilistas</option>
             <option value="fisiocratas">Fisiócratas</option>
             <option value="economia-politica">Economía Política</option>
@@ -80,20 +86,25 @@ function App() {
             type="submit"
             className="btn btn-primary"
             >
-            Generar
+            Generar/Revolver
           </button>
         </div>
       </form>
-              <h1>Creador por: <code>Navarrete Zamora Aldo Yael & Nuñez Hernandez Diego Ignacio</code></h1>
+              <h1>Creador por: <code>Navarrete Zamora Aldo Yael</code> & <code> Nuñez Hernandez Diego Ignacio</code></h1>
+              
       <div className="container">
         {
           flashCards.length > 0 ? (
           <FlashcardList
           flashCards={flashCards}
+          categoria={categoria}
+          numPreguntas={numPreguntas}
           />
           )
           : (
-            <h1>Selecciona una Categoría.</h1>
+            <div class="no-content animate__animated animate__fadeIn">
+              <h1 >Selecciona una Categoría.</h1>
+            </div>
           )
         }
       </div>
