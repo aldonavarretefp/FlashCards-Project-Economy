@@ -10,13 +10,13 @@ import 'animate.css';
 function App() {
 
   const [flashCards, setFlashCards] = useState([]);
-  const [formValues, handleInputChange, reset] = useForm({
+  const [formValues, handleInputChange] = useForm({
     numPreguntas: '10',
     categoria: ''
   });
 
 
-  const {numPreguntas,categoria} = formValues;
+  const {categoria} = formValues;
 
 
   const handleSubmit = (e) => {
@@ -45,11 +45,9 @@ function App() {
 
   return (
     <React.Fragment>
-
-        
       <form className="header" onSubmit={handleSubmit}>
         <div className="formGroup">
-          <label>Dime, ¿cuántas preguntas quieres ver?</label>
+          <label>¿Cuántas preguntas quieres ver?</label>
           <input
             type="number"
             name="numPreguntas"
@@ -62,7 +60,7 @@ function App() {
 
         </div>
         <div className="formGroup">
-          <label>¿De qué teoría?</label>
+          <label>¿De qué teoría económica?</label>
           <select
             name="categoria"
             id="categoria"
@@ -79,6 +77,7 @@ function App() {
             <option value="fisiocratas">Fisiócratas</option>
             <option value="economia-politica">Economía Política</option>
             <option value="clasicos">Clásicos</option>
+            <option value="marxismo">Marxismo</option>
           </select>
         </div>
         <div className="formGroup">
@@ -91,18 +90,16 @@ function App() {
         </div>
       </form>
               <h1>Creador por: <code>Navarrete Zamora Aldo Yael</code> & <code> Nuñez Hernandez Diego Ignacio</code></h1>
-              
       <div className="container">
         {
           flashCards.length > 0 ? (
           <FlashcardList
           flashCards={flashCards}
           categoria={categoria}
-          numPreguntas={numPreguntas}
           />
           )
           : (
-            <div class="no-content animate__animated animate__fadeIn">
+            <div className="no-content animate__animated animate__fadeIn">
               <h1 >Selecciona una Categoría.</h1>
             </div>
           )
