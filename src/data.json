@@ -196,7 +196,7 @@
         "id":33,
         "titulo":"¿En qué consiste la división del trabajo?",
         "categoria":"clasicos",
-        "respuesta":"NADA"
+        "respuesta":"Consistía en dividir una tarea en varias partes y contratar a varios trabajadores para realizar solamente una tarea."
     },
     {
         "id":34,
@@ -274,18 +274,108 @@
         "id":46,
         "titulo":"¿Cuál es la teoría de la renta?",
         "categoria":"clasicos",
-        "respuesta":"La renta de la tierra se deriva de la escasez."
+        "respuesta":"La renta de la tierra se deriva de la escasez. Había varias tierras por categoría, se enumeraban de 1 (más fertil) a 5 (menos fertil)."
     },
     {
         "id":47,
         "titulo":"¿Cuáles son los dos tipos de salarios en la teoría de la distribución?",
         "categoria":"clasicos",
         "respuesta":"Salario real(no incluye impuestos) y salario corriente(incluye impuestos)."
-    },
+    },  
     {
         "id":48,
         "titulo":"¿Cuál es la ley de los rendimientos decrecientes?",
         "categoria":"clasicos",
-        "respuesta":"A medida que vamos añadiendo valores productivos, el rendimiento va disminuyendo."
+        "respuesta":"A medida que vamos añadiendo valores productivos, el rendimiento va disminuyendo. Por ejemplo: Si 10 trabajadores con las máquinas empleadas generan 100 cuadernos (es decir, 10 por trabajador), el rendimiento si meto a otro trabajador no necesariamente será de 10 cuadernos, debido a que compartirá espacio y maquinaria de los otros."
+    },
+    {
+            
+        "id":49,
+        "titulo":"¿Quién fué el mentor de Adam Smith? ¿De quién adoptó sus ideas?",
+        "categoria":"clasicos",
+        "respuesta":"Quesnay."
+    },
+    {
+            
+        "id":50,
+        "titulo":"¿Cómo se llama el libro escrito por Adam Smith en esta doctrina?",
+        "categoria":"clasicos",
+        "respuesta":"La riqueza de las naciones."
+    },
+    {
+            
+        "id":51,
+        "titulo":"¿Qué es el individualismo ?",
+        "categoria":"clasicos",
+        "respuesta":"El sentimiento de egoísmo que inconscientemente mueve a la economía."
+    },
+    {
+        "id":52,
+        "titulo":"¿Cómo se llamaba la primera parte del Marxismo?",
+        "categoria":"marxismo",
+        "respuesta":"Materialismo Histórico."
+    },
+    {
+        "id":53,
+        "titulo":"¿Quién fué de gran insiparción para Marx dentro del materialismo histórico?",
+        "categoria":"marxismo",
+        "respuesta":"Hegel"
+    },
+    {
+        "id":54,
+        "titulo":"",
+        "categoria":"marxismo",
+        "respuesta":""
+    },
+    {
+        "id":55,
+        "titulo":"",
+        "categoria":"marxismo",
+        "respuesta":""
+    },
+    {
+        "id":56,
+        "titulo":"",
+        "categoria":"marxismo",
+        "respuesta":""
+    },
+    {
+        "id":57,
+        "titulo":"",
+        "categoria":"marxismo",
+        "respuesta":""
+    },
+    {
+        "id":58,
+        "titulo":"",
+        "categoria":"marxismo",
+        "respuesta":""
+    },
+    {
+        "id":59,
+        "titulo":"",
+        "categoria":"marxismo",
+        "respuesta":""
+    },
+    {
+        "id":60,
+        "titulo":"",
+        "categoria":"marxismo",
+        "respuesta":""
+    },
+    {
+        "id":61,
+        "titulo":"",
+        "categoria":"marxismo",
+        "respuesta":""
+    },
+    {
+        "id":62,
+        "titulo":"",
+        "categoria":"marxismo",
+        "respuesta":""
+    },
+    {
+
     }
 ]
