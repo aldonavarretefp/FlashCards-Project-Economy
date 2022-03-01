@@ -78,6 +78,7 @@ function App() {
             <option value="economia-politica">Economía Política</option>
             <option value="clasicos">Clásicos</option>
             <option value="marxismo">Marxismo</option>
+            <option value="teoria-keynes">Teoría de Keynes</option>
           </select>
         </div>
         <div className="formGroup">

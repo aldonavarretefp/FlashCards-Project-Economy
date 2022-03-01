@@ -341,41 +341,50 @@
     },
     {
         "id":57,
-        "titulo":"",
+        "titulo":"¿Qué pasa con la propiedad privada?",
         "categoria":"marxismo",
-        "respuesta":""
+        "respuesta":"En el marxismo se pretende que no haya propiedad privada, aunque en la realidad existe propiedad privada limitada."
     },
     {
         "id":58,
-        "titulo":"",
+        "titulo":"¿Cómo son los medios de producción? ",
         "categoria":"marxismo",
-        "respuesta":""
+        "respuesta":"Los medios de producción son colectivos."
     },
     {
         "id":59,
-        "titulo":"",
+        "titulo":"¿Cuál es el papel del estado?",
         "categoria":"marxismo",
-        "respuesta":""
+        "respuesta":"El estado es el encargado de organizar y distribuir la producción en función de las necesidades del pueblo."
     },
     {
         "id":60,
-        "titulo":"",
+        "titulo":"¿Cuál es la diferencia entre socialismo y marxismo?",
         "categoria":"marxismo",
-        "respuesta":""
+        "respuesta":"El marxismo es una teoría económica y el socialismo es un modelo económico que se basa en ella."
     },
     {
         "id":61,
-        "titulo":"",
-        "categoria":"marxismo",
-        "respuesta":""
+        "titulo":"¿Cuál fue el hecho histórico que impulsó su surgimiento?",
+        "categoria":"teoria-keynes",
+        "respuesta":"La Gran Depresión en 1929."
     },
     {
         "id":62,
-        "titulo":"",
-        "categoria":"marxismo",
-        "respuesta":""
+        "titulo":"¿Qué dice Keynes acerca de la mano invisible?",
+        "categoria":"teoria-keynes",
+        "respuesta":"Según Keynes la mano invisible no existe."
     },
     {
-
+        "id":63,
+        "titulo":"¿Qué dice Keynes con respecto al estado?",
+        "categoria":"teoria-keynes",
+        "respuesta":"El estado debe de intervenir para frenar la deflación "
+    },
+    {
+        "id":64,
+        "titulo":"¿Qué importante rama de la economía ve a la luz?",
+        "categoria":"teoria-keynes",
+        "respuesta":"Keynes sentó las bases de la macroeconomía"
     }
 ]
